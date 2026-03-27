@@ -1,0 +1,35 @@
+name: Update Proxy List
+
+on:
+  schedule:
+    - cron: '0 */3 * * *' # Jalan tiap 3 jam sekali
+  workflow_dispatch:      # Tombol manual buat ngetest
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install Dependencies
+      run: |
+        pip install requests PyYAML
+
+    - name: Run Converter Script
+      run: python convert.py
+
+    - name: Commit and Push
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        git add p1.yaml
+        git commit -m "Auto Update Proxy List: $(date)" || exit 0
+        git push
+        
