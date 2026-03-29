@@ -1,9 +1,4 @@
 proxies:
-- name: VG-http-45.88.0.115-3128
-  type: http
-  server: 45.88.0.115
-  port: 3128
-  udp: false
 - name: RU-http-95.213.217.168-52004
   type: http
   server: 95.213.217.168
@@ -1388,6 +1383,11 @@ proxies:
   type: http
   server: 45.131.7.191
   port: 80
+  udp: false
+- name: VG-http-45.88.0.115-3128
+  type: http
+  server: 45.88.0.115
+  port: 3128
   udp: false
 - name: CN-http-49.4.117.146-3128
   type: http
