@@ -1,4 +1,9 @@
 proxies:
+- name: FR-http-173.212.246.157-3128
+  type: http
+  server: 173.212.246.157
+  port: 3128
+  udp: false
 - name: NL-http-45.131.6.46-80
   type: http
   server: 45.131.6.46
@@ -92,11 +97,6 @@ proxies:
 - name: CN-http-103.213.97.78-80
   type: http
   server: 103.213.97.78
-  port: 80
-  udp: false
-- name: SG-http-188.239.43.6-80
-  type: http
-  server: 188.239.43.6
   port: 80
   udp: false
 - name: US-http-23.190.168.41-80
@@ -1079,11 +1079,6 @@ proxies:
   server: 45.12.31.174
   port: 80
   udp: false
-- name: BD-http-103.148.178.10-80
-  type: http
-  server: 103.148.178.10
-  port: 80
-  udp: false
 - name: GB-http-164.38.155.7-80
   type: http
   server: 164.38.155.7
@@ -1392,11 +1387,6 @@ proxies:
 - name: CN-http-49.4.117.146-3128
   type: http
   server: 49.4.117.146
-  port: 3128
-  udp: false
-- name: FR-http-173.212.246.157-3128
-  type: http
-  server: 173.212.246.157
   port: 3128
   udp: false
 - name: US-http-103.21.244.160-80
