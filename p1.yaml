@@ -1064,11 +1064,6 @@ proxies:
   server: 41.223.119.156
   port: 3128
   udp: false
-- name: HK-http-47.243.92.199-3128
-  type: http
-  server: 47.243.92.199
-  port: 3128
-  udp: false
 - name: ZZ-http-141.101.120.66-80
   type: http
   server: 141.101.120.66
