@@ -1,9 +1,4 @@
 proxies:
-- name: FR-http-173.212.246.157-3128
-  type: http
-  server: 173.212.246.157
-  port: 3128
-  udp: false
 - name: NL-http-45.131.6.46-80
   type: http
   server: 45.131.6.46
@@ -1397,6 +1392,11 @@ proxies:
 - name: CN-http-49.4.117.146-3128
   type: http
   server: 49.4.117.146
+  port: 3128
+  udp: false
+- name: FR-http-173.212.246.157-3128
+  type: http
+  server: 173.212.246.157
   port: 3128
   udp: false
 - name: RO-http-185.128.240.2-3128
