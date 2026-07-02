@@ -354,11 +354,6 @@ proxies:
   server: 141.193.213.10
   port: 80
   udp: false
-- name: EC-http-190.12.150.244-999
-  type: http
-  server: 190.12.150.244
-  port: 999
-  udp: false
 - name: NL-http-45.131.4.91-80
   type: http
   server: 45.131.4.91
@@ -1392,11 +1387,6 @@ proxies:
 - name: CN-http-49.4.117.146-3128
   type: http
   server: 49.4.117.146
-  port: 3128
-  udp: false
-- name: RO-http-185.128.240.2-3128
-  type: http
-  server: 185.128.240.2
   port: 3128
   udp: false
 - name: US-http-103.21.244.160-80
