@@ -1,9 +1,4 @@
 proxies:
-- name: ID-http-103.166.159.227-8080
-  type: http
-  server: 103.166.159.227
-  port: 8080
-  udp: false
 - name: NL-http-45.131.6.46-80
   type: http
   server: 45.131.6.46
@@ -193,6 +188,11 @@ proxies:
   type: http
   server: 45.131.7.178
   port: 80
+  udp: false
+- name: ID-http-103.166.159.227-8080
+  type: http
+  server: 103.166.159.227
+  port: 8080
   udp: false
 - name: ZZ-http-172.65.90.3-80
   type: http
