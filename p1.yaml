@@ -1,4 +1,9 @@
 proxies:
+- name: BD-http-103.148.178.10-80
+  type: http
+  server: 103.148.178.10
+  port: 80
+  udp: false
 - name: NL-http-45.131.6.46-80
   type: http
   server: 45.131.6.46
@@ -1077,11 +1082,6 @@ proxies:
 - name: RO-http-45.12.31.174-80
   type: http
   server: 45.12.31.174
-  port: 80
-  udp: false
-- name: BD-http-103.148.178.10-80
-  type: http
-  server: 103.148.178.10
   port: 80
   udp: false
 - name: GB-http-164.38.155.7-80
