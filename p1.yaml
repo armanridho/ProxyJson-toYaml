@@ -84,14 +84,9 @@ proxies:
   server: 63.141.128.27
   port: 80
   udp: false
-- name: DE-http-91.98.78.64-80
+- name: IR-http-91.98.78.64-80
   type: http
   server: 91.98.78.64
-  port: 80
-  udp: false
-- name: CN-http-103.213.97.78-80
-  type: http
-  server: 103.213.97.78
   port: 80
   udp: false
 - name: SG-http-188.239.43.6-80
@@ -124,7 +119,7 @@ proxies:
   server: 173.245.49.20
   port: 80
   udp: false
-- name: ZZ-http-188.114.97.197-80
+- name: NL-http-188.114.97.197-80
   type: http
   server: 188.114.97.197
   port: 80
@@ -194,7 +189,7 @@ proxies:
   server: 103.166.159.227
   port: 8080
   udp: false
-- name: ZZ-http-172.65.90.3-80
+- name: US-http-172.65.90.3-80
   type: http
   server: 172.65.90.3
   port: 80
@@ -209,7 +204,7 @@ proxies:
   server: 141.193.213.76
   port: 80
   udp: false
-- name: ZZ-http-172.65.90.46-80
+- name: US-http-172.65.90.46-80
   type: http
   server: 172.65.90.46
   port: 80
@@ -324,7 +319,7 @@ proxies:
   server: 103.21.244.33
   port: 80
   udp: false
-- name: NL-http-5.10.245.158-80
+- name: GB-http-5.10.245.158-80
   type: http
   server: 5.10.245.158
   port: 80
@@ -354,20 +349,10 @@ proxies:
   server: 141.193.213.10
   port: 80
   udp: false
-- name: EC-http-190.12.150.244-999
-  type: http
-  server: 190.12.150.244
-  port: 999
-  udp: false
 - name: NL-http-45.131.4.91-80
   type: http
   server: 45.131.4.91
   port: 80
-  udp: false
-- name: CN-http-115.231.181.40-8128
-  type: http
-  server: 115.231.181.40
-  port: 8128
   udp: false
 - name: CA-http-23.227.38.192-80
   type: http
@@ -459,7 +444,7 @@ proxies:
   server: 45.12.30.221
   port: 80
   udp: false
-- name: ZZ-http-172.64.148.232-80
+- name: US-http-172.64.148.232-80
   type: http
   server: 172.64.148.232
   port: 80
@@ -504,7 +489,7 @@ proxies:
   server: 172.67.182.59
   port: 80
   udp: false
-- name: ZZ-http-108.162.198.241-80
+- name: US-http-108.162.198.241-80
   type: http
   server: 108.162.198.241
   port: 80
@@ -659,12 +644,12 @@ proxies:
   server: 159.112.235.23
   port: 80
   udp: false
-- name: ZZ-http-172.67.155.148-80
+- name: US-http-172.67.155.148-80
   type: http
   server: 172.67.155.148
   port: 80
   udp: false
-- name: ZZ-http-108.162.193.151-80
+- name: US-http-108.162.193.151-80
   type: http
   server: 108.162.193.151
   port: 80
@@ -704,7 +689,7 @@ proxies:
   server: 45.12.31.46
   port: 80
   udp: false
-- name: NL-http-160.153.0.13-80
+- name: US-http-160.153.0.13-80
   type: http
   server: 160.153.0.13
   port: 80
@@ -739,7 +724,7 @@ proxies:
   server: 172.67.181.113
   port: 80
   udp: false
-- name: ZZ-http-188.114.98.88-80
+- name: NL-http-188.114.98.88-80
   type: http
   server: 188.114.98.88
   port: 80
@@ -764,7 +749,7 @@ proxies:
   server: 185.162.228.138
   port: 80
   udp: false
-- name: ZZ-http-172.67.201.21-80
+- name: US-http-172.67.201.21-80
   type: http
   server: 172.67.201.21
   port: 80
@@ -884,7 +869,7 @@ proxies:
   server: 128.199.1.8
   port: 3128
   udp: false
-- name: ZZ-http-172.66.43.112-80
+- name: US-http-172.66.43.112-80
   type: http
   server: 172.66.43.112
   port: 80
@@ -964,7 +949,7 @@ proxies:
   server: 103.21.244.26
   port: 80
   udp: false
-- name: ZZ-http-188.114.99.45-80
+- name: NL-http-188.114.99.45-80
   type: http
   server: 188.114.99.45
   port: 80
@@ -1009,7 +994,7 @@ proxies:
   server: 172.64.154.2
   port: 80
   udp: false
-- name: NL-http-181.214.1.84-80
+- name: AE-http-181.214.1.84-80
   type: http
   server: 181.214.1.84
   port: 80
@@ -1064,11 +1049,6 @@ proxies:
   server: 41.223.119.156
   port: 3128
   udp: false
-- name: HK-http-47.243.92.199-3128
-  type: http
-  server: 47.243.92.199
-  port: 3128
-  udp: false
 - name: ZZ-http-141.101.120.66-80
   type: http
   server: 141.101.120.66
@@ -1094,7 +1074,7 @@ proxies:
   server: 185.170.166.43
   port: 80
   udp: false
-- name: ZZ-http-172.67.153.119-80
+- name: US-http-172.67.153.119-80
   type: http
   server: 172.67.153.119
   port: 80
@@ -1204,12 +1184,12 @@ proxies:
   server: 103.21.244.25
   port: 80
   udp: false
-- name: SG-http-206.238.236.92-80
+- name: ZA-http-206.238.236.92-80
   type: http
   server: 206.238.236.92
   port: 80
   udp: false
-- name: ZA-http-102.177.176.192-80
+- name: US-http-102.177.176.192-80
   type: http
   server: 102.177.176.192
   port: 80
@@ -1279,7 +1259,7 @@ proxies:
   server: 185.162.228.32
   port: 80
   udp: false
-- name: ZZ-http-172.65.90.2-80
+- name: US-http-172.65.90.2-80
   type: http
   server: 172.65.90.2
   port: 80
@@ -1289,17 +1269,17 @@ proxies:
   server: 45.12.31.236
   port: 80
   udp: false
-- name: ZZ-http-172.65.90.47-80
+- name: US-http-172.65.90.47-80
   type: http
   server: 172.65.90.47
   port: 80
   udp: false
-- name: ZZ-http-172.64.78.50-80
+- name: US-http-172.64.78.50-80
   type: http
   server: 172.64.78.50
   port: 80
   udp: false
-- name: ZZ-http-172.64.78.198-80
+- name: US-http-172.64.78.198-80
   type: http
   server: 172.64.78.198
   port: 80
@@ -1324,12 +1304,12 @@ proxies:
   server: 103.21.244.4
   port: 80
   udp: false
-- name: ZZ-http-172.64.78.71-80
+- name: US-http-172.64.78.71-80
   type: http
   server: 172.64.78.71
   port: 80
   udp: false
-- name: ZZ-http-172.64.78.193-80
+- name: US-http-172.64.78.193-80
   type: http
   server: 172.64.78.193
   port: 80
@@ -1394,7 +1374,7 @@ proxies:
   server: 49.4.117.146
   port: 3128
   udp: false
-- name: FR-http-173.212.246.157-3128
+- name: DE-http-173.212.246.157-3128
   type: http
   server: 173.212.246.157
   port: 3128
@@ -1514,12 +1494,12 @@ proxies:
   server: 95.213.217.168
   port: 52004
   udp: false
-- name: ZZ-http-172.67.180.87-80
+- name: US-http-172.67.180.87-80
   type: http
   server: 172.67.180.87
   port: 80
   udp: false
-- name: US-http-188.114.96.1-80
+- name: NL-http-188.114.96.1-80
   type: http
   server: 188.114.96.1
   port: 80
@@ -1594,7 +1574,7 @@ proxies:
   server: 185.238.228.207
   port: 80
   udp: false
-- name: NL-http-160.153.0.11-80
+- name: US-http-160.153.0.11-80
   type: http
   server: 160.153.0.11
   port: 80
@@ -1643,11 +1623,6 @@ proxies:
   type: http
   server: 31.43.179.182
   port: 80
-  udp: false
-- name: US-http-142.93.202.130-3128
-  type: http
-  server: 142.93.202.130
-  port: 3128
   udp: false
 - name: FR-http-173.245.49.98-80
   type: http
@@ -1864,17 +1839,17 @@ proxies:
   server: 218.77.183.214
   port: 5224
   udp: false
-- name: ZZ-http-141.101.90.106-80
+- name: US-http-141.101.90.106-80
   type: http
   server: 141.101.90.106
   port: 80
   udp: false
-- name: ZZ-http-141.101.90.109-80
+- name: US-http-141.101.90.109-80
   type: http
   server: 141.101.90.109
   port: 80
   udp: false
-- name: ZZ-http-172.64.78.163-80
+- name: US-http-172.64.78.163-80
   type: http
   server: 172.64.78.163
   port: 80
@@ -1899,12 +1874,12 @@ proxies:
   server: 185.162.229.7
   port: 80
   udp: false
-- name: ZZ-http-172.65.90.0-80
+- name: US-http-172.65.90.0-80
   type: http
   server: 172.65.90.0
   port: 80
   udp: false
-- name: ZZ-http-172.64.78.69-80
+- name: US-http-172.64.78.69-80
   type: http
   server: 172.64.78.69
   port: 80
@@ -1964,7 +1939,7 @@ proxies:
   server: 188.114.97.16
   port: 80
   udp: false
-- name: SG-http-206.238.236.248-80
+- name: ZA-http-206.238.236.248-80
   type: http
   server: 206.238.236.248
   port: 80
@@ -2024,7 +1999,7 @@ proxies:
   server: 185.238.228.210
   port: 80
   udp: false
-- name: ZZ-http-172.67.189.42-80
+- name: US-http-172.67.189.42-80
   type: http
   server: 172.67.189.42
   port: 80
