@@ -1379,6 +1379,16 @@ proxies:
   server: 49.4.117.146
   port: 3128
   udp: false
+- name: DE-http-173.212.246.157-3128
+  type: http
+  server: 173.212.246.157
+  port: 3128
+  udp: false
+- name: RO-http-185.128.240.2-3128
+  type: http
+  server: 185.128.240.2
+  port: 3128
+  udp: false
 - name: US-http-103.21.244.160-80
   type: http
   server: 103.21.244.160
