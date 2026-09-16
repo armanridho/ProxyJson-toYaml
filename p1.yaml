@@ -354,15 +354,15 @@ proxies:
   server: 141.193.213.10
   port: 80
   udp: false
+- name: EC-http-190.12.150.244-999
+  type: http
+  server: 190.12.150.244
+  port: 999
+  udp: false
 - name: NL-http-45.131.4.91-80
   type: http
   server: 45.131.4.91
   port: 80
-  udp: false
-- name: CN-http-115.231.181.40-8128
-  type: http
-  server: 115.231.181.40
-  port: 8128
   udp: false
 - name: CA-http-23.227.38.192-80
   type: http
