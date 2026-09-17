@@ -1064,11 +1064,6 @@ proxies:
   server: 45.12.31.174
   port: 80
   udp: false
-- name: BD-http-103.148.178.10-80
-  type: http
-  server: 103.148.178.10
-  port: 80
-  udp: false
 - name: GB-http-164.38.155.7-80
   type: http
   server: 164.38.155.7
@@ -1783,11 +1778,6 @@ proxies:
   type: http
   server: 31.43.179.232
   port: 80
-  udp: false
-- name: KH-http-49.156.44.115-8080
-  type: http
-  server: 49.156.44.115
-  port: 8080
   udp: false
 - name: US-http-103.21.244.30-80
   type: http
