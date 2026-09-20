@@ -359,6 +359,11 @@ proxies:
   server: 45.131.4.91
   port: 80
   udp: false
+- name: CN-http-115.231.181.40-8128
+  type: http
+  server: 115.231.181.40
+  port: 8128
+  udp: false
 - name: CA-http-23.227.38.192-80
   type: http
   server: 23.227.38.192
@@ -1783,6 +1788,11 @@ proxies:
   type: http
   server: 31.43.179.232
   port: 80
+  udp: false
+- name: KH-http-49.156.44.115-8080
+  type: http
+  server: 49.156.44.115
+  port: 8080
   udp: false
 - name: US-http-103.21.244.30-80
   type: http
