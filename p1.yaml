@@ -89,11 +89,6 @@ proxies:
   server: 91.98.78.64
   port: 80
   udp: false
-- name: CN-http-103.213.97.78-80
-  type: http
-  server: 103.213.97.78
-  port: 80
-  udp: false
 - name: SG-http-188.239.43.6-80
   type: http
   server: 188.239.43.6
