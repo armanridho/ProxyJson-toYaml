@@ -1,8 +1,8 @@
 proxies:
-- name: KH-http-49.156.44.115-8080
+- name: BD-http-103.148.178.10-80
   type: http
-  server: 49.156.44.115
-  port: 8080
+  server: 103.148.178.10
+  port: 80
   udp: false
 - name: NL-http-45.131.6.46-80
   type: http
@@ -1074,11 +1074,6 @@ proxies:
   server: 45.12.31.174
   port: 80
   udp: false
-- name: BD-http-103.148.178.10-80
-  type: http
-  server: 103.148.178.10
-  port: 80
-  udp: false
 - name: GB-http-164.38.155.7-80
   type: http
   server: 164.38.155.7
@@ -1392,11 +1387,6 @@ proxies:
 - name: DE-http-173.212.246.157-3128
   type: http
   server: 173.212.246.157
-  port: 3128
-  udp: false
-- name: RO-http-185.128.240.2-3128
-  type: http
-  server: 185.128.240.2
   port: 3128
   udp: false
 - name: US-http-103.21.244.160-80
@@ -1793,6 +1783,11 @@ proxies:
   type: http
   server: 31.43.179.232
   port: 80
+  udp: false
+- name: KH-http-49.156.44.115-8080
+  type: http
+  server: 49.156.44.115
+  port: 8080
   udp: false
 - name: US-http-103.21.244.30-80
   type: http
